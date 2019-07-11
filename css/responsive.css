@@ -1,0 +1,79 @@
+@media(max-width:1199px){
+     .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+}
+/*counting*/
+		.counting{
+	padding:42px 0;
+}
+	.counting-content h2 {
+    font-size: 40px;
+}
+	.counting-content h6 {
+    font-size: 15px;
+}
+}
+@media(max-width:991px){
+	.navbar-nav{
+		text-align:center;
+	}
+	.navbar-nav li .btn-custom{
+		display:none;
+	}
+	/*counting*/
+    .counting{
+	padding:39px 0;
+}
+	.counting-content h2 {
+    font-size: 35px;
+}
+	.counting-content h6 {
+    font-size: 13px;
+}
+}
+@media(max-width:767px){
+ /*banner start*/
+ .banner-content h1 {
+    font-size: 30px;
+}
+
+/*banner end*/
+/*counting*/
+	.counting{
+	background-color: #ff9b1a;
+	padding:32px 0;
+}
+	.counting-content h2 {
+    font-size: 34px;
+}
+	.counting-content h6 {
+    font-size: 10px;
+}
+	
+}
+@media(max-width:575px){
+.top-menu li a {
+    /*font-size: 10px;
+    color: #7f7f7f;
+    text-transform: uppercase;*/
+    padding-right:10px ;
+    padding-left: 10px;
+}
+/*banner start*/
+ .banner-content h1 {
+    font-size: 30px;
+}
+
+/*banner end*/
+/*counting start*/
+.counting{
+	background-color: #ff9b1a;
+	padding:29px 0;
+}
+	.counting-content h2 {
+    font-size: 25px;
+}
+	.counting-content h6 {
+    font-size: 8px;
+}
+}

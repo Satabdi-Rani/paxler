@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Raleway:300,400,500,700,800&display=swap');
+	.body{
+		font-family: 'Montserrat', sans-serif;
+}
+.top-header{
+	background-color: #efefef;
+	padding: 3px 0;
+}
+.top-bitcoin-info{}
+.top-bitcoin-info p{
+	font-size:12px;
+	color:#7f7f7f;
+	margin-bottom:0;
+}
+.top-menu{}
+.top-menu li{}
+.top-menu li a{
+	font-size:12px;
+	color:#7f7f7f;
+	text-transform: uppercase;
+	padding-right: 0;
+    padding-left: 30px;
+}
+/*menu start*/
+ .navbar-light .navbar-nav .nav-link {
+    color: #161616;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 30px;
+}
+.btn-custom{
+	    background-color: #ff9b1a;
+	    color: #ffffff !important;
+	    margin-left:1px;
+	    color: #161616;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 30px;
+}
+ .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #ff9b1a;
+    color: #ffffff !important;
+}
+.navbar-toggler{
+	margin-left:auto;
+	margin-right:20px;
+}
+.navbar{
+	padding:24px 0;
+}
+/*menu end*/
+
+/* <!-- banner section start -->*/
+.banner-section{
+	background-color: #000;
+	background-image: url(../images/banner.png);
+	background-size:cover;
+}
+.banner-section .row{
+    min-height:400px;
+}
+.banner-content{
+	color:#efefef;
+	text-align:center;
+}
+.banner-content h1{
+	font-family: 'Raleway', sans-serif;
+	font-size:42px;
+	font-weight: 900;
+	margin-bottom:0 !important;
+}
+.banner-content ul{
+	margin:20px 0;
+}
+.banner-content ul li{}
+.banner-content ul li strong{
+	display:block;
+	font-size:14px;
+}
+.banner-content ul li span{
+	font-size:12px;
+}
+.banner-content a.btn-outline-light{
+	margin: 10px;
+}
+.banner-content a.btn-outline-light:hover {
+    color: #ffffff;
+    background-color: #ff9b1a;
+    border-color: transparent;
+}
+
+/*.btn-outline-light:hover{
+	 color: #ffffff;
+    background-color: #ff9b1a;
+    border-color: transparent;
+}*/
+/* <!-- banner section end -->*/
+
+/*service start*/
+.service{
+	text-align:center;
+	padding:30px 15px;
+}
+.service i{
+	color:#ff9b1a;
+	border-radius:5px;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+	font-size:58px;
+	margin-left:0;
+}
+.service:hover i{
+    color:#fff;
+  /*  color:#c79b06;*/
+}
+.service:hover{
+	background-image: url(../images/payment.png);
+	color:#fff;
+}
+/*service end*/
+
+/* <!-- bitcoin-transaction start -->*/
+.bitcoin-transaction{
+	margin-top: 31px;
+	    margin-bottom: 85px;
+}
+.bitt{
+	text-align: center;
+	    padding-top: 31px;
+    padding-bottom: 50px;
+}
+
+/* <!-- bitcoin-transaction end -->*/
+
+/*simple steps start*/
+.simple-step-section{
+	background-image: url(../images/simple-steps.png);
+	height:400px;
+	background-size: cover;
+	position: relative;
+}
+.iphone{
+
+}
+.iphone img{
+	width: 50%;
+    position: absolute;
+    bottom: -24px;
+    /*bottom: 109px;*/
+        right: 73px;
+}
+.iphone img:last-child{
+	width: 34%;
+    position: absolute;
+    bottom: 111px;
+    right: 116px;
+}
+.steps-box{
+	padding-top: 47px;
+}
+.steps-box h1{
+	    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+}
+.steps-box h2:after{
+	content:"";
+}
+.steps{}
+.steps li{}
+.steps li span{
+}
+.steps li h5{}
+
+/*simple steps end*/
+/*counting start*/
+.counting{
+	background-color: #ff9b1a;
+	padding:50px 0;
+}
+.counting-content{
+	text-align:center;
+	color:#ffffff;
+}
+.counting-content h2{
+	font-size:50px;
+	font-weight:700;
+	font-family: 'Raleway', sans-serif;
+}
+.counting-content h6{
+	font-size:18px;
+	font-weight:500;
+	font-family: 'Raleway', sans-serif;
+}
+/*counting end*/
+
+/*bitcoin start*/
+.bitcoin-section{
+	    padding: 80px 0;
+}
+.bitcoin{
+	position:relative;
+	padding:80px 0;
+}
+.bitcoin img{
+	display:block;
+	margin:auto;
+}
+.icon{
+	text-align:center;
+}
+.icon i{
+	font-size:16px;
+}
+.icon span{
+	display:block;
+	/*border:1px solid;*/
+	width:40px;
+	height:40px;
+	line-height:40px;
+	margin:auto;
+	border-radius:3px;
+	/*transform:rotate(45deg);*/
+	position:relative;
+	margin-bottom:10px;
+}
+.icon span:before{
+	content:"";
+	position:absolute;
+	border:2px solid;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	transform:rotate(45deg);
+	border-radius:6px;
+}
+.icon strong{
+    color: #252525;
+    font-size: 14px;
+    display: block;
+}
+.red{
+	color:#f05154;
+}
+.green{
+	color:#a3e2a6;
+}
+.skyblue{
+	color:#88d8db;
+}
+.top-left{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.middle-left{ 
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    /*transform: translateY(-50);*/
+    transform: translate(-60px, -50%);
+	 }
+.bottom-left{
+position:absolute;
+left:;
+bottom:0;
+}
+.top-right{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.middle-right{
+	position: absolute;
+    right: -60px;
+    top: 50%;
+    /*transform: translateY(-50);*/
+    transform: translate(60px, -50%);
+}
+.bottom-right{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+/*bitcoin end*/
+
+/*team strat*/
+.team{}
+.team-content{
+	text-align:center;
+	position:relative;
+	padding:80px 0;
+}
+.team-content h1{
+	font-size:41px;
+	font-weight: 900;
+	color:#2b2b2b;
+	transform:uppercase;
+}
+.team-content p{
+	font-size: 16px;
+    font-weight: 300;
+    color: #6e6e6e;
+    width: 49%;
+    margin:0 auto;
+}
+ .reader{
+	width: 14%;
+    background-color: #fa8e2b;
+    height: 3px;
+    position: absolute;
+    margin-top:30px;
+        left: 44%;
+}
+.team-members{
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+.team-members img{}
+.team-members p{
+	font-size: 21px;
+    margin-top: 14px;
+    margin-bottom: 0;
+    color:#1e1e1e;
+}
+.team-members strong{
+	font-size: 14px;
+	color:#fba057;
+}
+/*team end*/
+
+/*free consultation start*/
+.contact-section{
+	background-image:url(../images/consultation.png);
+	/*background: #000000 url(../images/consultation.png);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0 0 80px 0;
+}
+.team-content .white{
+	color:#ffffff;
+	font-size:28px;
+	font-weight: 400;
+	padding-bottom:0;
+}
+.btn-custom {
+    background-color: #ff9b1a;
+    color: #ffffff !important;
+    margin-left: 1px;
+    color: #161616;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 8px 48px;
+    border-radius: 28px;
+}
+textarea.form-control::placeholder, .form-control::placeholder{
+    color:#fff;
+}
+textarea.form-control, .form-control {
+    background-color: transparent;
+}
+/*free consultation end*/
+/*footer start*/
+footer{
+	background-color: #101010;
+	color:#ffffff;
+	padding:57px 0 47px 0;
+}
+.footer-content{
+     width: 82%;
+}
+.footer-content img{}
+.footer-content p{
+	    font-size: 14px;
+    margin-top: 45px;
+}
+.social-media{}
+.social-media li{
+	border: 1px solid #FA8E2B;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.social-media li a{
+	color: #fa8e2b;
+	padding:0 10px;
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+.footer-content h6{
+	font-size:15px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+.footer-content .under-style{
+	width: 14%;
+    background-color: #fa8e2b;
+    height: 3px;
+    position: absolute;
+    margin-top:10px;
+}
+.address{
+	    margin-top: 70px;
+}
+.address li{
+     margin-bottom: 13px;
+     font-size: 14px;
+     }
+.address li i{
+	    padding-right: 14px;
+}
+.fa-ul {
+    margin-left: 30px;
+}
+.points {
+    line-height: 24px;
+    margin-top: 66px;
+    font-size:14px;
+}
+/*.points{
+	list-style-type:none;
+}*/
+/*.social-media li a:first-child{
+	padding-left:0;
+}*/
+/*footer end*/
